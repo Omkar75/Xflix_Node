@@ -1099,3 +1099,13 @@ src/components/LandingPage.js
 Search for the keywords to learn more about each warning.
 To ignore, add // eslint-disable-next-line to the line before.
 
+Compiling...
+Compiled with warnings.
+
+src/components/LandingPage.js
+  Line 88:72:  Array.prototype.filter() expects a value to be returned at the end of arrow function  array-callback-return
+  Line 99:28:  Array.prototype.map() expects a value to be returned at the end of arrow function     array-callback-return
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+

@@ -93,6 +93,7 @@ class LandingPage extends Component {
         if (this.state.searchText.length === 0) { filteredVideos = this.state.allVideoList }
         this.setState({ videoList: filteredVideos })
     }
+    
     getFilteredVideosByGenre = (videos, genres) => {
         let filteredVideos = [];
         genres.map((genre) => {
