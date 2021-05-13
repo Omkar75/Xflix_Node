@@ -10,7 +10,6 @@ export const config = {
 
 export default function App(props) {
   const location = useLocation();
-  // Scroll to top if path changes
   useLayoutEffect(() => {
     window && window.scrollTo(0, 0);
   }, [location.pathname]);
