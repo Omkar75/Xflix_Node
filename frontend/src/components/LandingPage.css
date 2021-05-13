@@ -1,0 +1,157 @@
+.Landpage{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    /*padding-left: 40px;*/
+}
+.tool-bar {
+    background-color: #202020;
+    /* padding: 15px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.active-toolbar-button {
+    margin: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.87);
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 7px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.toolbar-button{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: rgba(255, 255, 255, 0.87);
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 7px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.sort-select {
+    background-color: #ffffff;
+    font-size: 14px;
+    color: #586069;
+    border: none;
+}
+.toolbar-button-sort {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    /* color: rgba(255, 255, 255, 0.87); */
+    width: fit-content;
+    padding: 7px 14px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    color: #586069;
+}
+.upload-img{
+    margin-left: none !important;
+    height: auto;
+    width: 15px;
+}
+.videorow{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+.ant-modal-header {    
+    background: dimgray !important;
+}
+.ant-modal-title {
+    /* margin: 0; */
+    color: white;
+    font-weight: 400;
+    /* font-size: 16px; */
+    /* line-height: 22px; */
+    /* word-wrap: break-word; */
+}
+.ant-modal-content {
+    background-color: dimgray;  
+}
+.ant-input{
+    background-color: dimgray;
+    color: white;
+}
+.input{
+    color: white;
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    background-color: dimgray;
+}
+.ant-select{
+    color: white;
+}
+.ant-form-item-label > label {
+    color: white;
+}
+.uploadbtnlp{
+    border-radius: 5px!important;
+    justify-content: center;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+.videouploadbtn {
+    background: red !important;
+    border-radius: 5px !important;
+    margin-right: 4px !important;
+}
+.uploadcanclebtn {
+    background: dimgray;
+    border-color: dimgray;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 5px!important;
+}
+.ant-btn-primary:hover, .ant-btn-primary:focus {
+    color: #fff;
+    background: grey;
+    border-color: white;
+}
+.ant-row {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+    row-gap: 16px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0px 15px;
+    overflow: hidden;
+}
+.ant-col {
+    position: relative;
+    max-width: 100%;
+    min-height: 1px;
+    justify-content: center;
+    overflow: hidden;
+    object-fit: contain;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
