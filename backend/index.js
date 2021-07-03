@@ -15,7 +15,7 @@ app.use(cors());
 app.use('/v1', videosRoutes);
 const PORT = process.env.PORT || 8082;
 
-mongoose.connect(process.env.CONNECTION_URL, {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect('mongodb://127.0.0.1:27017/xflix', {useNewUrlParser: true, useUnifiedTopology: true})
     .then(() => {console.log("Connected to MongoDB"); 
     app.listen(PORT, () => console.log(`Server running on port: ${PORT}`))})
     .catch((error)=>{console.log(error.message)});

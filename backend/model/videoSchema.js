@@ -3,17 +3,16 @@ import mongoose from 'mongoose';
 const videoSchema = mongoose.Schema({
     viewCount: {
         type: Number,
-        default: 0
+        default: 0,
     },
     votes:{
         upVotes:{
             type: Number,
-            default: 0
+            default: 0,
         },
         downVotes:{
             type: Number,
-            default: 0
-      
+            default: 0,
         }
     },
     videoLink: {

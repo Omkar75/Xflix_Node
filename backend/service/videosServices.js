@@ -1,8 +1,17 @@
 import Videos from "../model/videoSchema.js";
+import httpStatus from 'http-status';
+import ApiError from "../utils/ApiError.js";
 
 export const getVideoById = async(id) => {
-    const videoById = await Videos.findById(id);
-    return videoById
+    try{
+        const videoById = await Videos.findById(id);
+    }catch(error){
+        console.log(error)
+    }
+    if(!videoById){
+        throw new ApiError(httpStatus.NOT_FOUND, "No video found with matching id")
+    }
+    return videoById;    
 };
 
 export const getVideos = async (soby) => {

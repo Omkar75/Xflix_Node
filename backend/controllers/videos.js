@@ -1,5 +1,6 @@
 import {updoViews,  getVideos, addVids, getVideoById, updoVotes, filteredVideos } from '../service/videosServices.js';
-
+import getUser from '../validiations/user.validiation.js'
+import objectId from '../validiations/custom.validiation.js'
 export const Videos = async (req, res) => {
     let sv = ['releaseDate', 'viewCount']
     let soby
@@ -35,6 +36,8 @@ export const Videos = async (req, res) => {
 };
 
 export const videosId = async (req,res) => {
+    //objectId(req.params.videoId);
+    
     const vid = await getVideoById(req.params.videoId);
     res.send(vid)
 }
