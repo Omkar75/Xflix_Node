@@ -7,7 +7,7 @@ const router = express.Router();
 
 router.get('/videos', Videos);
 router.patch('/videos/:videoId/views', views);
-router.get('/videos/:videoId', validate(getUser), videosId);
+router.get('/videos/:videoId', videosId);
 
 router.post('/videos', addVideos);
 router.patch('/videos/:videoId/votes', updateVotes);

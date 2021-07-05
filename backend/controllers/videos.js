@@ -61,7 +61,7 @@ export const addVideos = catchAsync(async (req, res, next) => {
     }   
 });
 
-export const updateVotes = catchAsync(async(req, res) => {
+export const updateVotes = async(req, res) => {
     try{
         var updateObject = req.body; 
         var id = req.params.videoId;
@@ -70,9 +70,9 @@ export const updateVotes = catchAsync(async(req, res) => {
     }catch(error){
         console.log(error)
     }    
-});
+};
 
-export const views = catchAsync(async(req, res) => {
+export const views = async(req, res) => {
     try{ 
         var id = req.params.videoId;
         const vid = await updoViews(id);
@@ -80,4 +80,4 @@ export const views = catchAsync(async(req, res) => {
     }catch(error){
         console.log(error)
     }
-});
+};

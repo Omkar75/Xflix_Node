@@ -30513,3 +30513,1476 @@ npm ERR! This is probably not a problem with npm. There is likely additional log
 
 npm ERR! A complete log of this run can be found in:
 npm ERR!     /home/crio-user/.npm/_logs/2021-07-02T19_20_27_351Z-debug.log
+
+> backend@1.0.0 start /home/crio-user/workspace/ozagade2002-ME_BUILDOUT_XFLIX_NODE/backend
+> node index.js
+
+Connected to MongoDB
+Server running on port: 8082
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+[
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d4405,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSi',
+    title: 'video18',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  }
+]
+[
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d43fc,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSf',
+    title: 'Consumed by the Apocalypse10',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d440b,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSkk',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  }
+]
+[
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d43fc,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSf',
+    title: 'Consumed by the Apocalypse10',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d4402,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSh',
+    title: 'Consumed by the Apocalypse16',
+    genre: 'Lifestyle',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d440b,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSkk',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d440e,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSl',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Lifestyle',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  }
+]
+[
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d43ed,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSka',
+    title: 'First-Video',
+    genre: 'Education',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2021',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d43ea,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSk',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Education',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d43f0,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSkb',
+    title: 'Consumed by the Apocalypse3',
+    genre: 'Education',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d43f3,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSc',
+    title: 'Consumed by the Apocalypse4',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d43f6,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSd',
+    title: 'Consumed by the Apocalypse5',
+    genre: 'Comedy',
+    contentRating: '18+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d43f9,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSe',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d43fc,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSf',
+    title: 'Consumed by the Apocalypse10',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d43ff,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSg',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Comedy',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d4402,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSh',
+    title: 'Consumed by the Apocalypse16',
+    genre: 'Lifestyle',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d4405,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSi',
+    title: 'video18',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d4408,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSj',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Education',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d440b,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSkk',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d440e,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSl',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Lifestyle',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d4411,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSm',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d4414,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSn',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Comedy',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d4417,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSu',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d7eca0f54c810d441a,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSv',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Comedy',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d7eca0f54c810d441d,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSw',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d7eca0f54c810d4420,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSx',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Comedy',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d7eca0f54c810d4423,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSy',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d7eca0f54c810d4426,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSz',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Comedy',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  }
+]
+[
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d43fc,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSf',
+    title: 'Consumed by the Apocalypse10',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d4402,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSh',
+    title: 'Consumed by the Apocalypse16',
+    genre: 'Lifestyle',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d440b,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSkk',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e357d6eca0f54c810d440e,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSl',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Lifestyle',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  }
+]
+{
+  votes: { upVotes: 1, downVotes: 0 },
+  viewCount: 0,
+  _id: 60e357d6eca0f54c810d43ea,
+  videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSk',
+  title: 'Consumed by the Apocalypse',
+  genre: 'Education',
+  contentRating: '12+',
+  releaseDate: '3 Mar 2019',
+  previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+  __v: 0
+}
+Error: "videoId" is not allowed
+    at file:///home/crio-user/workspace/ozagade2002-ME_BUILDOUT_XFLIX_NODE/backend/middleware/validate.js:37:17
+    at Layer.handle [as handle_request] (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at /home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:281:22
+    at param (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:317:13)
+    at /home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+{
+  votes: { upVotes: 1, downVotes: 1 },
+  viewCount: 0,
+  _id: 60e357d6eca0f54c810d43ea,
+  videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSk',
+  title: 'Consumed by the Apocalypse',
+  genre: 'Education',
+  contentRating: '12+',
+  releaseDate: '3 Mar 2019',
+  previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+  __v: 0
+}
+Error: "videoId" is not allowed
+    at file:///home/crio-user/workspace/ozagade2002-ME_BUILDOUT_XFLIX_NODE/backend/middleware/validate.js:37:17
+    at Layer.handle [as handle_request] (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at /home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:281:22
+    at param (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:317:13)
+    at /home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+{
+  votes: { upVotes: 1, downVotes: 1 },
+  viewCount: 1,
+  _id: 60e357d6eca0f54c810d43ea,
+  videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSk',
+  title: 'Consumed by the Apocalypse',
+  genre: 'Education',
+  contentRating: '12+',
+  releaseDate: '3 Mar 2019',
+  previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+  __v: 0
+}
+Error: "videoId" is not allowed
+    at file:///home/crio-user/workspace/ozagade2002-ME_BUILDOUT_XFLIX_NODE/backend/middleware/validate.js:37:17
+    at Layer.handle [as handle_request] (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at /home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:281:22
+    at param (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:317:13)
+    at /home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+
+> backend@1.0.0 start /home/crio-user/workspace/ozagade2002-ME_BUILDOUT_XFLIX_NODE/backend
+> node index.js
+
+Connected to MongoDB
+Server running on port: 8082
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+[
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad82,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSi',
+    title: 'video18',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  }
+]
+[
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad79,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSf',
+    title: 'Consumed by the Apocalypse10',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad88,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSkk',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  }
+]
+[
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad79,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSf',
+    title: 'Consumed by the Apocalypse10',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad7f,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSh',
+    title: 'Consumed by the Apocalypse16',
+    genre: 'Lifestyle',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad88,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSkk',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad8b,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSl',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Lifestyle',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  }
+]
+[
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358ba937897513633ad6a,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSka',
+    title: 'First-Video',
+    genre: 'Education',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2021',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358ba937897513633ad67,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSk',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Education',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad6d,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSkb',
+    title: 'Consumed by the Apocalypse3',
+    genre: 'Education',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad70,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSc',
+    title: 'Consumed by the Apocalypse4',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad73,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSd',
+    title: 'Consumed by the Apocalypse5',
+    genre: 'Comedy',
+    contentRating: '18+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad76,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSe',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad79,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSf',
+    title: 'Consumed by the Apocalypse10',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad7c,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSg',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Comedy',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad7f,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSh',
+    title: 'Consumed by the Apocalypse16',
+    genre: 'Lifestyle',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad82,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSi',
+    title: 'video18',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad85,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSj',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Education',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad88,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSkk',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad8b,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSl',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Lifestyle',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad8e,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSm',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad91,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSn',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Comedy',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad94,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSu',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad97,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSv',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Comedy',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad9a,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSw',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad9d,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSx',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Comedy',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ada0,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSy',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ada3,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSz',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Comedy',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  }
+]
+[
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad79,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSf',
+    title: 'Consumed by the Apocalypse10',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad7f,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSh',
+    title: 'Consumed by the Apocalypse16',
+    genre: 'Lifestyle',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad88,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSkk',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e358bb937897513633ad8b,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSl',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Lifestyle',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  }
+]
+{
+  votes: { upVotes: 1, downVotes: 0 },
+  viewCount: 0,
+  _id: 60e358ba937897513633ad67,
+  videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSk',
+  title: 'Consumed by the Apocalypse',
+  genre: 'Education',
+  contentRating: '12+',
+  releaseDate: '3 Mar 2019',
+  previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+  __v: 0
+}
+Error: "videoId" is not allowed
+    at file:///home/crio-user/workspace/ozagade2002-ME_BUILDOUT_XFLIX_NODE/backend/middleware/validate.js:37:17
+    at Layer.handle [as handle_request] (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at /home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:281:22
+    at param (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:317:13)
+    at /home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+{
+  votes: { upVotes: 1, downVotes: 1 },
+  viewCount: 0,
+  _id: 60e358ba937897513633ad67,
+  videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSk',
+  title: 'Consumed by the Apocalypse',
+  genre: 'Education',
+  contentRating: '12+',
+  releaseDate: '3 Mar 2019',
+  previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+  __v: 0
+}
+Error: "videoId" is not allowed
+    at file:///home/crio-user/workspace/ozagade2002-ME_BUILDOUT_XFLIX_NODE/backend/middleware/validate.js:37:17
+    at Layer.handle [as handle_request] (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at /home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:281:22
+    at param (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:317:13)
+    at /home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+{
+  votes: { upVotes: 1, downVotes: 1 },
+  viewCount: 1,
+  _id: 60e358ba937897513633ad67,
+  videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSk',
+  title: 'Consumed by the Apocalypse',
+  genre: 'Education',
+  contentRating: '12+',
+  releaseDate: '3 Mar 2019',
+  previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+  __v: 0
+}
+Error: "videoId" is not allowed
+    at file:///home/crio-user/workspace/ozagade2002-ME_BUILDOUT_XFLIX_NODE/backend/middleware/validate.js:37:17
+    at Layer.handle [as handle_request] (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at /home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:281:22
+    at param (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:317:13)
+    at /home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/crio-user/0e0f7391db67d748b07f5bab13762099fbde66df45aa6fab38a916a67b56bb83/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+
+> backend@1.0.0 start /home/crio-user/workspace/ozagade2002-ME_BUILDOUT_XFLIX_NODE/backend
+> node index.js
+
+Connected to MongoDB
+Server running on port: 8082
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+[
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c025,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSi',
+    title: 'video18',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  }
+]
+[
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c01c,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSf',
+    title: 'Consumed by the Apocalypse10',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c02b,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSkk',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  }
+]
+[
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c01c,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSf',
+    title: 'Consumed by the Apocalypse10',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c022,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSh',
+    title: 'Consumed by the Apocalypse16',
+    genre: 'Lifestyle',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c02b,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSkk',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c02e,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSl',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Lifestyle',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  }
+]
+[
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c00d,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSka',
+    title: 'First-Video',
+    genre: 'Education',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2021',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35997c4d3bc5503f3c00a,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSk',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Education',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c010,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSkb',
+    title: 'Consumed by the Apocalypse3',
+    genre: 'Education',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c013,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSc',
+    title: 'Consumed by the Apocalypse4',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c016,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSd',
+    title: 'Consumed by the Apocalypse5',
+    genre: 'Comedy',
+    contentRating: '18+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c019,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSe',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c01c,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSf',
+    title: 'Consumed by the Apocalypse10',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c01f,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSg',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Comedy',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c022,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSh',
+    title: 'Consumed by the Apocalypse16',
+    genre: 'Lifestyle',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c025,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSi',
+    title: 'video18',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c028,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSj',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Education',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c02b,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSkk',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c02e,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSl',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Lifestyle',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c031,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSm',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c034,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSn',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Comedy',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c037,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSu',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c03a,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSv',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Comedy',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c03d,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSw',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c040,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSx',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Comedy',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c043,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSy',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Education',
+    contentRating: '16+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c046,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSz',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Comedy',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  }
+]
+[
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c01c,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSf',
+    title: 'Consumed by the Apocalypse10',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c022,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSh',
+    title: 'Consumed by the Apocalypse16',
+    genre: 'Lifestyle',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c02b,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSkk',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Sports',
+    contentRating: '12+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  },
+  {
+    votes: { upVotes: 0, downVotes: 0 },
+    viewCount: 0,
+    _id: 60e35998c4d3bc5503f3c02e,
+    videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSl',
+    title: 'Consumed by the Apocalypse',
+    genre: 'Lifestyle',
+    contentRating: '7+',
+    releaseDate: '3 Mar 2019',
+    previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+    __v: 0
+  }
+]
+{
+  votes: { upVotes: 1, downVotes: 0 },
+  viewCount: 0,
+  _id: 60e35997c4d3bc5503f3c00a,
+  videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSk',
+  title: 'Consumed by the Apocalypse',
+  genre: 'Education',
+  contentRating: '12+',
+  releaseDate: '3 Mar 2019',
+  previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+  __v: 0
+}
+{
+  votes: { upVotes: 1, downVotes: 1 },
+  viewCount: 0,
+  _id: 60e35997c4d3bc5503f3c00a,
+  videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSk',
+  title: 'Consumed by the Apocalypse',
+  genre: 'Education',
+  contentRating: '12+',
+  releaseDate: '3 Mar 2019',
+  previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+  __v: 0
+}
+{
+  votes: { upVotes: 1, downVotes: 1 },
+  viewCount: 1,
+  _id: 60e35997c4d3bc5503f3c00a,
+  videoLink: 'https://www.youtube.com/watch?v=vXz81_o7CSk',
+  title: 'Consumed by the Apocalypse',
+  genre: 'Education',
+  contentRating: '12+',
+  releaseDate: '3 Mar 2019',
+  previewImage: 'https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg',
+  __v: 0
+}

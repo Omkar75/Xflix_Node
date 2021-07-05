@@ -1,29 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="2.0360" tests="11" failures="0">
-  <testsuite name="Root Suite" timestamp="2021-07-02T15:43:06" tests="0" file="specs/apiSpec.js" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="0.0000" tests="11" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-07-05T19:12:35" tests="0" file="specs/homePageSpec.js" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="Search" timestamp="2021-07-02T15:43:06" tests="11" time="2.0360" failures="0">
-    <testcase name="Search POST /v1/videos - Verify expected fields are present in response on uploading videos" time="1.0420" classname="POST /v1/videos - Verify expected fields are present in response on uploading videos">
-    </testcase>
-    <testcase name="Search GET /v1/videos - Verify all videos were uploaded" time="0.0740" classname="GET /v1/videos - Verify all videos were uploaded">
-    </testcase>
-    <testcase name="Search GET /v1/videos?title=video18 - Verify only 1 video with title &apos;video18&apos; exists and has its genre as Education" time="0.0670" classname="GET /v1/videos?title=video18 - Verify only 1 video with title &apos;video18&apos; exists and has its genre as Education">
-    </testcase>
-    <testcase name="Search GET /v1/videos?genres=Sports - Verify exactly 2 videos are available for Sports genre" time="0.0590" classname="GET /v1/videos?genres=Sports - Verify exactly 2 videos are available for Sports genre">
-    </testcase>
-    <testcase name="Search GET /v1/videos?genres=Sports,Lifestyle - Verify exactly 4 videos are available for Sports/Lifestyle genres" time="0.0520" classname="GET /v1/videos?genres=Sports,Lifestyle - Verify exactly 4 videos are available for Sports/Lifestyle genres">
-    </testcase>
-    <testcase name="Search GET /v1/videos?contentRating=18%2B - Verify all videos are returned with contentRating set as 18+" time="0.0830" classname="GET /v1/videos?contentRating=18%2B - Verify all videos are returned with contentRating set as 18+">
-    </testcase>
-    <testcase name="Search GET /v1/videos?title=consumed&amp;genres=Sports,Lifestyle&amp;contentRating=12%2B - Verify exactly 4 videos are available" time="0.0820" classname="GET /v1/videos?title=consumed&amp;genres=Sports,Lifestyle&amp;contentRating=12%2B - Verify exactly 4 videos are available">
-    </testcase>
-    <testcase name="Search GET /v1/videos?sortBy=releaseDate - Verify that video with title First-Video comes first when sorted by releaseDate " time="0.0970" classname="GET /v1/videos?sortBy=releaseDate - Verify that video with title First-Video comes first when sorted by releaseDate ">
-    </testcase>
-    <testcase name="Search PATCH /v1/videos/:videoId/votes - Verify upvote feature works" time="0.2050" classname="PATCH /v1/videos/:videoId/votes - Verify upvote feature works">
-    </testcase>
-    <testcase name="Search PATCH /v1/videos/:videoId/votes - Verify downvote feature works" time="0.1440" classname="PATCH /v1/videos/:videoId/votes - Verify downvote feature works">
-    </testcase>
-    <testcase name="Search PATCH /v1/videos/:videoId/views - Verify view count is increased" time="0.1310" classname="PATCH /v1/videos/:videoId/views - Verify view count is increased">
+  <testsuite name="XFlix" timestamp="2021-07-05T19:12:35" tests="11" time="0.0000" failures="1">
+    <testcase name="XFlix &quot;before each&quot; hook for &quot;should display 5 genre buttons on a row&quot;" time="0.0000" classname="&quot;before each&quot; hook for &quot;should display 5 genre buttons on a row&quot;">
+      <failure message="`cy.visit()` failed trying to load:
+
+http://localhost:8082/v1/
+
+The response we received from your web server was:
+
+  &gt; 404: Not Found
+
+This was considered a failure because the status code was not `2xx`.
+
+If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `XFlix`" type="CypressError"><![CDATA[CypressError: `cy.visit()` failed trying to load:
+
+http://localhost:8082/v1/
+
+The response we received from your web server was:
+
+  > 404: Not Found
+
+This was considered a failure because the status code was not `2xx`.
+
+If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `XFlix`
+    at http://localhost:8082/__cypress/runner/cypress_runner.js:138565:25
+    at visitFailedByErr (http://localhost:8082/__cypress/runner/cypress_runner.js:137940:12)
+    at http://localhost:8082/__cypress/runner/cypress_runner.js:138545:13
+    at tryCatcher (http://localhost:8082/__cypress/runner/cypress_runner.js:10791:23)
+    at Promise._settlePromiseFromHandler (http://localhost:8082/__cypress/runner/cypress_runner.js:8726:31)
+    at Promise._settlePromise (http://localhost:8082/__cypress/runner/cypress_runner.js:8783:18)
+    at Promise._settlePromise0 (http://localhost:8082/__cypress/runner/cypress_runner.js:8828:10)
+    at Promise._settlePromises (http://localhost:8082/__cypress/runner/cypress_runner.js:8904:18)
+    at _drainQueueStep (http://localhost:8082/__cypress/runner/cypress_runner.js:5498:12)
+    at _drainQueue (http://localhost:8082/__cypress/runner/cypress_runner.js:5491:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:8082/__cypress/runner/cypress_runner.js:5507:5)
+    at Async.drainQueues (http://localhost:8082/__cypress/runner/cypress_runner.js:5377:14)
+From Your Spec Code:
+    at Object.goto (http://localhost:8082/__cypress/tests?p=specs/homePageSpec.js:150:8)
+    at Context.eval (http://localhost:8082/__cypress/tests?p=specs/homePageSpec.js:328:23)]]></failure>
     </testcase>
   </testsuite>
 </testsuites>
