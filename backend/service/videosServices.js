@@ -3,11 +3,7 @@ import httpStatus from 'http-status';
 import ApiError from "../utils/ApiError.js";
 
 export const getVideoById = async(id) => {
-    try{
-        const videoById = await Videos.findById(id);
-    }catch(error){
-        console.log(error)
-    }
+    const videoById = await Videos.findById(id);
     if(!videoById){
         throw new ApiError(httpStatus.NOT_FOUND, "No video found with matching id")
     }

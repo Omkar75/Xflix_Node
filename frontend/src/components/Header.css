@@ -1,0 +1,61 @@
+
+.header{
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 0;
+    width: 100%;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    background: #202020;
+    padding: 0.75em 2em;
+}
+.upload-img {
+    margin-left: 10px;
+    position: relative;
+    bottom: 2px;
+  }
+
+  .upload-text {
+    margin-left: 5px;
+    margin-right: 10px;
+    position: relative;
+    bottom: 3px;
+  }
+  
+  .header-title {
+    font-size: 2.5em;
+    cursor: pointer;
+    color: white;
+    
+  }
+  .header-title::first-letter{
+    color: Red;
+ }
+  
+  .header-action {
+    display: flex;
+    align-items: center;
+  }
+ 
+  .ant-input-group .ant-input{
+    color: white;
+    background-color: #121212;
+  }
+
+  .ant-btn-primary {
+    /* color: #fff; */
+    background: #313131;
+    border-color: unset;
+    /* text-shadow: 0 -1px 0 rgb(0 0 0 / 12%); */
+    /* box-shadow: 0 2px 0 rgb(0 0 0 / 5%); */
+}
+
+  .header-search {
+    width: 573px;
+    padding-top: inherit;
+    padding-bottom: inherit;
+  }
+
