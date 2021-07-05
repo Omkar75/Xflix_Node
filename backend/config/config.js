@@ -9,7 +9,7 @@ dotenv.config({ path: path.join(__dirname, '../../backend/.env') });
 
 const envVarsSchema = Joi.object()
   .keys({
-    PORT: Joi.number().default(3000),
+    NODE_ENV: Joi.number().default(3000),
     MONGODB_URL: Joi.string().required().description("Mongo DB url"),
   })
   .unknown();
@@ -21,7 +21,7 @@ if (error) {
 }
 
 export default {
-  port: envVars.PORT,
+  port: envVars.NODE_ENV,
   // Set mongoose configuration
   mongoose: {
     url: envVars.MONGODB_URL,

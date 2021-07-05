@@ -5,7 +5,7 @@ import { Route, Switch, useLocation } from "react-router-dom";
 import Video from "./components/Video";
 
 export const config = {
-  endpoint: `http://3.7.199.238:8082/v1`,
+  endpoint: `https://xflix-nodeoz.herokuapp.com/v1`,
 };
 
 export default function App(props) {
