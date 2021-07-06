@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
 import  VideoPreview  from './VideoPreview';
-import { Row, Col, Button, Input, Form, Select, DatePicker, Modal } from 'antd';
+import { Button, Input, Form, Select, DatePicker, Modal } from 'antd';
 import 'antd/dist/antd.css';
 import "./LandingPage.css"
 import moment from "moment";
@@ -11,6 +11,7 @@ import Icon from "@mdi/react";
 import { mdiSwapVertical } from "@mdi/js";
 import Header from "./Header.js";
 import { HiUpload } from "react-icons/hi";
+import Container from '@material-ui/core/Container';
 class LandingPage extends Component {
     constructor(props) {
         super(props);
@@ -213,9 +214,9 @@ class LandingPage extends Component {
     }
     getVideos = (data) => {
         return (
-          <Col key={data._id}>
+          <div key={data._id}>
             <VideoPreview data={data}/>
-          </Col>
+          </div>
         );
       };
     render() {
@@ -332,17 +333,22 @@ class LandingPage extends Component {
                         ))}
                     </div>
                 </Grid>
-                <div style={{height : "40px", backgroundColor:"black"}}></div>
+                <div className="container" style={{height : "40px", backgroundColor:"black"}}></div>
+               
                 <div className='Landpage'>
-                <Row gutter={[16,16]}>
-                        {this.state.allVideoList.length !== 0 ? (
-                            this.state.videoList.map((data,key)=><Col xs={24} sm={12} md={8}>{this.getVideos(data)}</Col>)
+                <Container fixed>
+                    <div>
+                    <Grid container spacing={3}>
+                    {this.state.allVideoList.length !== 0 ? (
+                            this.state.videoList.map((data,key)=><Grid item xs={6} sm={6} md={4}>{this.getVideos(data)}</Grid>)
                         ):!this.state.loading ? (
                             <div className="loading-text">Loading videos...</div>
                         ) : (
                                     <div className="loading-text">No videos</div>
                                 )}
-                    </Row>
+                    </Grid>
+                    </div>
+                </Container>
                 </div>
             </div>
         );

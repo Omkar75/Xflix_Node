@@ -3,9 +3,11 @@ import { withRouter } from "react-router-dom";
 import Header from "./Header.js";
 import VideoPreview from "./VideoPreview.js";
 import { AiOutlineLike, AiOutlineDislike } from 'react-icons/ai'
-import { Button, Row, Col } from "antd";
+import { Button } from "antd";
 import Iframe from 'react-iframe';
 import { config } from "../App";
+import Grid from "@material-ui/core/Grid";
+import Container from '@material-ui/core/Container';
 import "./Video.css";
 
 class Video extends React.Component {
@@ -24,9 +26,9 @@ class Video extends React.Component {
   }
   getVideos = (data) => {
     return (
-      <Col key={data._id}>
+      <div key={data._id}>
         <VideoPreview data={data}/>
-      </Col>
+      </div>
     );
   };
   getVideoByID = async() =>{
@@ -147,45 +149,46 @@ class Video extends React.Component {
       <div className="fullpage">
           <Header history={this.props.history} />
           {this.videoData.length !== 0 ? (
-            <>
-          <div className="main">
-          <div className="iframe-parent">
-          <Iframe url={`https://www.${this.props.location.state.data.videoLink}`} width="100%" height="100%" allow="fullscreen" className="iframe" /> 
-          </div> 
+          <>
+          <Container fixed>
+          <div class="iframe-container">
+          <Iframe url={`https://www.${this.props.location.state.data.videoLink}`} width="100%" frameborder="0" title="Responsive iframe example" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  /> 
           </div>
-          <div className="jack">
-          <h2 className="title">
-              {this.props.location.state.data.title}
-          </h2>
-          <span className="rating-date">{this.props.location.state.data.contentRating} <img src="dot.svg" alt=""/> {this.props.location.state.date}</span>
-          </div>
-          <div className="monster">
-          <div className="button">
-          {this.state.likeon ? (<Button id="upvote" onClick={this.like.bind(this,"decrease")}><AiOutlineLike /> {this.videoData.votes.upVotes}</Button>
-          ):<Button id="upvote" onClick={this.like.bind(this,"increase")}><AiOutlineLike />{this.videoData.votes.upVotes}</Button>}
-          {this.state.unlikeon ? ( <Button id="downvote" onClick={this.unlike.bind(this,"decrease")}><AiOutlineDislike /> {this.videoData.votes.downVotes}</Button>
-          ):<Button id="downvote" onClick={this.unlike.bind(this,"increase")}><AiOutlineDislike /> {this.videoData.votes.downVotes}</Button>}
-          </div>
-          </div>
-          <div className="Line"></div></>
+            
+
+            
+            <div className="jack">
+            <h2 className="title">
+                {this.props.location.state.data.title}
+            </h2>
+            <span className="rating-date">{this.props.location.state.data.contentRating} <img src="dot.svg" alt=""/> {this.props.location.state.date}</span>
+            </div>
+            <div className="monster">
+            <div className="button">
+            {this.state.likeon ? (<Button id="upvote" onClick={this.like.bind(this,"decrease")}><AiOutlineLike /> {this.videoData.votes.upVotes}</Button>
+            ):<Button id="upvote" onClick={this.like.bind(this,"increase")}><AiOutlineLike />{this.videoData.votes.upVotes}</Button>}
+            {this.state.unlikeon ? ( <Button id="downvote" onClick={this.unlike.bind(this,"decrease")}><AiOutlineDislike /> {this.videoData.votes.downVotes}</Button>
+            ):<Button id="downvote" onClick={this.unlike.bind(this,"increase")}><AiOutlineDislike /> {this.videoData.votes.downVotes}</Button>}
+            </div>
+            </div>
+            <div className="Line"></div>
+            </Container>
+          </>
+          
           ) : <div className="loading-text">Loading video...</div>}
-          <Row>
-          <Col>
-            <div className="container "> 
-            <Row className="second-row" gutter={{ xs: 8, sm: 16, md: 24, lg: 24 }} justify={"center"}>
-              {this.state.allVideos.length !== 0 ? (
-                this.state.filteredVideos.map((data,key)  => <Col xs={24} sm={12} md={8} xl={8}>
-                <div>{this.getVideos(data)}</div>
-            </Col>)
-              ) : !this.state.loading ? (
-                <div className="loading-text">Loading videos...</div>
-              ) : (
-                <div className="loading-text">No videos to load</div>
-              )}
-            </Row>
-            </div> 
-          </Col>
-        </Row>
+          <Container fixed>
+                    <div>
+                    <Grid container spacing={3}>
+                    {this.state.allVideos.length !== 0 ? (
+                    this.state.filteredVideos.map((data,key)  => <Grid item xs={6} sm={6} md={4}>{this.getVideos(data)}</Grid>)
+                  ) : !this.state.loading ? (
+                    <div className="loading-text">Loading videos...</div>
+                  ) : (
+                    <div className="loading-text">No videos to load</div>
+                  )}
+                    </Grid>
+                    </div>
+                </Container>
 
       </div>
     );

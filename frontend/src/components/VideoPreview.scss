@@ -1,4 +1,4 @@
-$text-color-dark: #111111;
+/*$text-color-dark: #111111;
 
 .video-info {
     color: $text-color-dark;
@@ -28,7 +28,7 @@ $text-color-dark: #111111;
 
 .video-tile{
   display: grid;
-  /*grid: 180px auto / 210px; */
+  /*grid: 180px auto / 210px; 
   overflow: hidden;
   justify-content: center;
   }
@@ -38,3 +38,16 @@ $text-color-dark: #111111;
     grid-row: 1 / 2;
     grid-column: 1 / 2;
   }
+  */
+  .img{
+    max-width: 100%;
+      max-height: 100%;
+      display: block;
+  }
+  .video-info {
+    color: white;
+  }
+  .MuiCardContent-root {
+    background-color: black;
+    /* text-decoration-color: white; */
+}
